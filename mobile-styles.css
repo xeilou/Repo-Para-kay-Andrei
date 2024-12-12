@@ -1,0 +1,190 @@
+@media screen and (max-width: 850px) {
+    body {
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header {
+        width: 80%;
+        align-items: center;
+    }
+
+    #header h2 {
+        font-size: 20px;
+    }
+
+    #header ul {
+        width: auto;
+        display: flex;
+    }
+
+    #header a {
+        font-size: 14px;
+    }
+
+    #about-me {
+        margin-top: 15%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .louis {    
+        text-shadow: -3px 2px black;
+    }
+
+    #img-cont {
+        min-width: 400px;
+        max-width: 400px;
+        aspect-ratio: 1 / 1;
+        background-color: lightsalmon;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: -10px 9px 1px black;
+        border: 3px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s ease-in;
+    }
+
+    #text-cont h1 {
+        font-size: 32px;
+    }
+
+    #text-cont h2 {
+        font-size: 24px;
+    }
+
+    #education {
+        width: 90%;
+    }
+
+    #education h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .edu-bar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .edu-bar span {
+        font-size: 18px;
+    }
+
+    .edu-bar h2 {
+        font-size: 25px;
+    }
+
+    .edu-bar p {
+        font-size: 15px;
+    }
+
+    .edu-bar hr {
+        width: 100%;
+    }
+
+    .school {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .school-desc {
+        width: 100%;
+    }
+
+    .logo {
+        width: 60%;
+        margin-bottom: 5%;
+        min-width: 400px;
+        max-width: 400px;
+        aspect-ratio: 1 / 1;
+    }
+
+    .skills {
+        width: 100%;
+        text-align: center;
+    }
+
+    .skills h2 {
+        font-size: 18px;
+    }
+
+    #project-cont {
+        margin-bottom: 5%;
+    }
+
+    #projects {
+        padding: 20px;
+    }
+
+    #projects h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #projects p {
+        margin-top: -25px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .proj-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contacts {
+        text-align: center;
+        padding: 20px;
+    }
+
+    #footer {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #header h2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+    #header ul {
+        display: flex;
+        align-items: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #header a {
+        font-size: 12px;
+    }
+
+    #about-me {
+        margin-top: 22%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #projects p {
+        border: none;
+    }
+
+    #img-cont {
+        width: 100%;
+    }
+}
